@@ -251,6 +251,13 @@ Desde la terminal para abrir la pagina que acabamos de subir:
 ### Reconstruir los archivos alojados en heroku
 
 Desde la pagina en deploy se encuentra el código para clonar el archivo o los documentos alojados en heroku 
+Verifica los repo agregados heroku y origin
+- git remote
+
+### Uso del git tag
+
+- git tag -a v1.0.0 -m "Primera version"
+- git push --tags
 
 
 
