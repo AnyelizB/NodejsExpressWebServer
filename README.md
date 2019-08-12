@@ -222,6 +222,37 @@ ahora en la console se ejecuta con:
 npm run nodemon
 
 ```
+- Subir todo a git para iniciar con heroku git
+    git init
+    git status
+- Iniciar en la terminal con:
+
+```
+heroku login
+
+```
+
+Luego:
+
+```
+heroku git:remote -a anyeliz-nodejs-webserve-njsexp
+
+```
+Por ultimo subimos con push_
+
+```
+git push heroku master
+
+```
+Desde la terminal para abrir la pagina que acabamos de subir:
+
+```heroku open```
+
+### Reconstruir los archivos alojados en heroku
+
+Desde la pagina en deploy se encuentra el código para clonar el archivo o los documentos alojados en heroku 
+
+
 
 
 
